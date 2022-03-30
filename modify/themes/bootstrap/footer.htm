@@ -1,0 +1,17 @@
+<%#
+	Copyright 1998 中國遠徵 <admin@ssss.fun>
+-%>
+
+		<% if not blank_page then %>
+		<%   local ver = require "luci.version" %>
+		</div>
+		<footer>
+			<span>
+				Copyright © 1998 - <script>document.write(new Date().getFullYear());</script> <a href="https://i.ssss.fun">中國遠徵</a> All Rights Reserved.
+			</span>
+			<ul class="breadcrumb pull-right" id="modemenu" style="display:none"></ul>
+		</footer>
+		<script type="text/javascript">L.require('menu-bootstrap')</script>
+		<% end %>
+	</body>
+</html>
