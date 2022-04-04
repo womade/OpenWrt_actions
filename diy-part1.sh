@@ -13,6 +13,8 @@
 
 
 
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+
 wget https://github.com/womade/LEDE_actions/raw/main/patch/JDC-1.tar.gz -O JDC-1.tar.gz
 tar -zxvf JDC-1.tar.gz
 rm -rf JDC-1.tar.gz
