@@ -15,7 +15,7 @@ on:
       branch:
           description: '请输入源码的分支'
           required: true
-          default: 'openwrt-21.02'
+          default: 'master'
       model:
           description: '请输入需要编译的机型'
           required: true
