@@ -12,6 +12,7 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 
+git clone https://github.com/kiddin9/openwrt-packages.git package/yuanzheng
 wget https://github.com/womade/LEDE_actions/raw/main/patch/JDC-1.tar.gz -O JDC-1.tar.gz
 tar -zxvf JDC-1.tar.gz
 rm -rf JDC-1.tar.gz
