@@ -22,7 +22,7 @@ on:
           default: 'MI-R3P'
 
 env:
-  REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
+  REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: ${{ github.event.inputs.branch }}
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: configs/${{ github.event.inputs.model }}.config
